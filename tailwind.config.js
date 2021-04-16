@@ -13,6 +13,9 @@ module.exports = {
       spacing: {
         "0.7": "70vh",
         "0.5": "50vh"
+      },
+      fontFamily: {
+        "sans": ["montserrat"]
       }
     },
   },

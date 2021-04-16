@@ -1,3 +1,28 @@
+
+@font-face {
+   font-family: "montserrat";
+   src: local("montserrat"), url("./fonts/Montserrat-Bold.woff") format("woff");
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: "montserrat";
+   src: local("montserrat"), url("./fonts/Montserrat-Black.woff") format("woff");
+   font-weight: black;
+}
+
+@font-face {
+   font-family: "montserrat";
+   src: local("montserrat"), url("./fonts/Montserrat-SemiBold.woff") format("woff");
+   font-weight: semibold;
+}
+
+@font-face {
+   font-family: "montserrat";
+   src: local("montserrat"), url("./fonts/Montserrat-Regular.woff") format("woff");
+   font-weight: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,9 +37,13 @@
 }
 
 .input-wrapper {
-   @apply grid grid-cols-3 gap-4 justify-start  mb-4
+   @apply grid grid-cols-3 gap-4 justify-start mb-4;
 }
 
 .input {
    @apply col-span-2 border-2 py-1 px-3;
+}
+
+.nav {
+   @apply grid grid-cols-2 gap-4 w-12 justify-center;
 }
