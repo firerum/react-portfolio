@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Portfolio = () => {
    return (  
-      <section id="portfolio" className="px-6 py-12 font-light bg-primary">
+      <section id="portfolio" className="sect bg-primary">
          <h2 className="heading">Portfolio</h2>
          <Project
             src="./images/IP-tracker-compressed.jpg"

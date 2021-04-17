@@ -1,6 +1,6 @@
 const About = () => {
    return ( 
-      <article id="about" className="bg-aboutbg px-6 py-12 text-center flex-col items-center justify-center">
+      <article id="about" className="bg-aboutbg sect text-center flex-col items-center justify-center">
          <h2 className="heading">About Me</h2>
          <img src="./images/hooded-unsplash.jpg" alt="adewuyi" class="w-full mb-8" />
          <div className="font-light">

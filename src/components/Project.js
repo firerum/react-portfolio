@@ -1,6 +1,6 @@
 const Project = ({ src, title, desc, linkA, linkB, alt }) => {
    return (  
-      <div className="relative mb-8 hover:shadow-md">
+      <div className="relative mb-8 hover:shadow-md transitions">
          <img src={src} alt={alt} loading="lazy" className="" />
          <div className="relative h-auto p-6 pb-4 bg-gray shadow rounded-b">
             <h4 className="font-semibold mb-2">{title}</h4>
