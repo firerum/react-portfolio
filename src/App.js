@@ -8,9 +8,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="text-sm sm:grid sm:grid-cols-3 lg:grid-cols-4">
+    <div className="text-sm sm:grid sm:grid-cols-3 lg:grid-cols-4 leading-6">
       <Hero />
-      <div className="sm:col-span-2">
+      <div className="sm:col-span-2 border-l border-r border-gray-300">
         <About />
         <Services />
         <Skills />

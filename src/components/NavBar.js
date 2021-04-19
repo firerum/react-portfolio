@@ -8,8 +8,8 @@ const NavBar = ({ setMenu }) => {
    };
 
    return (
-      <nav className="transitions absolute top-full bg-aboutbg w-3/4 capitalize font-semibold flex    justify-center py-8 h-screen -ml-6 z-10 sm:fixed sm:left-0 sm:top-12 sm:w-1/4 sm:m-auto sm:bg-transparent">
-         <ul className="w-full grid grid-cols-1 justify-items-center py-2 sm:content-start sm:gap-8">
+      <nav className="transitions absolute top-full bg-aboutbg w-3/4 capitalize font-semibold flex justify-center py-8 h-screen -ml-6 z-10 sm:fixed sm:left-0 sm:top-12 sm:w-1/4 sm:m-auto sm:bg-transparent">
+         <ul className="w-full grid grid-cols-1 items-start justify-items-center py-2 px-2 sm:content-start sm:gap-8">
             <li className="nav">
                <i className="fas fa-home"></i>
                <a href="#" onClick={handleClick}>home</a>
